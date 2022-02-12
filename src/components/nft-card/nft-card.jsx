@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image, Button, Link, Container } from "@chakra-ui/react";
+import { Box, Image, Container } from "@chakra-ui/react";
 import NftModal from "../modal/modal";
 
 const NftCard = ({

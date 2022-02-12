@@ -1,14 +1,11 @@
 import React from "react";
 import {
   Container,
-  Grid,
-  GridItem,
   Heading,
   Text,
   Flex,
   Box,
   Spacer,
-  Button,
   Divider,
   Center,
 } from "@chakra-ui/react";

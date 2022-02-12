@@ -19,20 +19,6 @@ class NftContainer extends Component {
       products: parseData.products,
     });
   }
-  // async test() {
-  //   for (var prodind in this.state.products) {
-  //     const product = this.state.products[prodind];
-  //     const url = "https://example-api.com/job/status/ID";
-  //     const jsonData = await fetch(url);
-  //     const parseData = await jsonData.json();
-  //     var tempprodcuts = this.state.products;
-  //     tempprodcuts[this.state.products.indexOf(product)].bought =
-  //       parseData.boughtState;
-  //     this.setState({
-  //       products: tempprodcuts,
-  //     });
-  //   }
-  // }
   render() {
     return (
       <>
