@@ -24,7 +24,7 @@ These six options will appear whenever a person visits our website.
 
 ## ⚙️ How we built it
 - **Frontend** - React.js, Chakra UI
-- **Authentication & DB** - Firebase
+- **Authentication & DB** - Firebase, GoogleAuth
 - **API** - bitskiAPI
 
 ## 🏅 Accomplishments that we're proud of
