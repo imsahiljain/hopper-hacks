@@ -2,7 +2,13 @@ import React from "react";
 import { Box, Image, Button, Link, Container } from "@chakra-ui/react";
 import NftModal from "../modal/modal";
 
-const NftCard = ({ prices, createdAt, tokenMetadata, totalAvailable }) => {
+const NftCard = ({
+  prices,
+  createdAt,
+  tokenMetadata,
+  username,
+  totalAvailable,
+}) => {
   return (
     <Container mt="-10">
       <Box
@@ -65,7 +71,13 @@ const NftCard = ({ prices, createdAt, tokenMetadata, totalAvailable }) => {
             <b>Created at :</b> {createdAt}
           </Box>
           <br />
-          <NftModal />
+          <NftModal
+            prices={prices}
+            createdAt={createdAt}
+            username={username}
+            tokenMetadata={tokenMetadata}
+            totalAvailable={totalAvailable}
+          />
         </Box>
       </Box>
     </Container>
