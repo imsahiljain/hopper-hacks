@@ -1,0 +1,33 @@
+.head {
+
+
+
+    background: #ff432e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff432e, #ffad61);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff432e, #ffad61);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+
+}
+
+.sub {
+
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #878787);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #878787);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+
+}
