@@ -79,7 +79,7 @@ const Navbar = () => {
                 fontFamily="Neue-Regular"
                 fontSize="18px"
               >
-                <Link to="/">Martketplace</Link>
+                <Link to="/marketplace">Martketplace</Link>
               </Button>
 
               <Button

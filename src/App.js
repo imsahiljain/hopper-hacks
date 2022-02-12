@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/navbar";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { ToastContainer } from "react-toastify";
 import About from "./pages/about/about";
+import Marketplace from "./pages/marketplace/marketplace";
 
 class App extends React.Component {
   constructor() {
@@ -49,6 +50,7 @@ class App extends React.Component {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
+          <Route exact path="/marketplace" element={<Marketplace />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
       </>
