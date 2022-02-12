@@ -21,7 +21,7 @@ const ProfileContainer = () => {
           <Heading size="xl" fontFamily="Neue-Regular" mb="3">
             Sahil Jain
           </Heading>
-          <Heading fontFamily="Neue-Light" size="sm">
+          <Heading fontFamily="Neue-Light" size="sm" color="gray.400">
             emailofsahiljain@gmail.com
           </Heading>
         </Box>
@@ -30,7 +30,7 @@ const ProfileContainer = () => {
           <Heading size="xl" fontFamily="Neue-Regular" mb="3">
             Wallet
           </Heading>
-          <Heading fontFamily="Neue-Light" size="sm">
+          <Heading fontFamily="Neue-Light" size="sm" color="gray.400">
             USD 1000 left
           </Heading>
         </Box>
