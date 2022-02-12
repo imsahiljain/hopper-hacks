@@ -1,5 +1,5 @@
 import React from "react";
-import { Center, Heading, Text, Button } from "@chakra-ui/react";
+import { Center, Heading, Text } from "@chakra-ui/react";
 import "./hero.css";
 
 const Hero = () => {
@@ -27,19 +27,6 @@ const Hero = () => {
           Lorem ipsum dolor.
         </Text>
       </Center>
-      {/* <Center>
-        <Button
-          colorScheme="gray.900"
-          p="5"
-          variant="outline"
-          mr="30"
-          fontFamily="Neue-Regular"
-          fontSize="18px"
-          mt="10"
-        >
-          Get Started
-        </Button>
-      </Center> */}
     </>
   );
 };

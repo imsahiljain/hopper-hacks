@@ -1,9 +1,17 @@
-import { Flex, Spacer, Box, Heading, Text, Button } from "@chakra-ui/react";
+import {
+  Flex,
+  Spacer,
+  Box,
+  Heading,
+  Button,
+  Icon,
+  Tooltip,
+} from "@chakra-ui/react";
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../../firebase/firebase.utils";
 import { useToast } from "@chakra-ui/react";
 import { IconButton } from "@chakra-ui/react";
-import { SettingsIcon } from "@chakra-ui/icons";
+import { MdPersonOutline, MdAddToPhotos } from "react-icons/md";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -73,6 +81,7 @@ const Navbar = () => {
               >
                 <Link to="/">Martketplace</Link>
               </Button>
+
               <Button
                 colorScheme="gray"
                 borderColor="gray.500"
@@ -85,7 +94,18 @@ const Navbar = () => {
               >
                 <Link to="/login">Logout</Link>
               </Button>
-              <IconButton aria-label="Your Account" icon={<SettingsIcon />} />
+
+              <Tooltip label="Create NFT" fontSize="md">
+                <IconButton aria-label="Your Account">
+                  <Icon as={MdAddToPhotos} w={6} h={6} />
+                </IconButton>
+              </Tooltip>
+
+              <Tooltip label="Your Profile" fontSize="md">
+                <IconButton aria-label="Your Account" ml="4">
+                  <Icon as={MdPersonOutline} w={6} h={6} />
+                </IconButton>
+              </Tooltip>
             </>
           ) : (
             <Button
