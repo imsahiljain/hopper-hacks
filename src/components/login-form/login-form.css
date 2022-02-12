@@ -1,0 +1,8 @@
+.log {
+    background: #2719e6;
+    background: -webkit-linear-gradient(to right, #2719e6, #a28fff);
+    background: linear-gradient(to right, #2719e6, #a28fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
