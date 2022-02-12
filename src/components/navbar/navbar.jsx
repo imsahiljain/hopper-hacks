@@ -20,6 +20,9 @@ const Navbar = () => {
   const redirectToLoginPage = () => {
     navigate("/login");
   };
+  const handleProfileClick = () => {
+    navigate("/profile");
+  };
   const logOut = () => {
     auth.signOut();
     toast({
@@ -102,7 +105,11 @@ const Navbar = () => {
               </Tooltip>
 
               <Tooltip label="Your Profile" fontSize="md">
-                <IconButton aria-label="Your Account" ml="4">
+                <IconButton
+                  aria-label="Your Account"
+                  ml="4"
+                  onClick={handleProfileClick}
+                >
                   <Icon as={MdPersonOutline} w={6} h={6} />
                 </IconButton>
               </Tooltip>

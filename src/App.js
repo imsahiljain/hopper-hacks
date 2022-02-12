@@ -7,6 +7,7 @@ import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { ToastContainer } from "react-toastify";
 import About from "./pages/about/about";
 import Marketplace from "./pages/marketplace/marketplace";
+import Profile from "./pages/profile/profile";
 
 class App extends React.Component {
   constructor() {
@@ -51,6 +52,7 @@ class App extends React.Component {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/marketplace" element={<Marketplace />} />
+          <Route exact path="/profile" element={<Profile />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
       </>
