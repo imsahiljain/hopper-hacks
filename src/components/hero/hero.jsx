@@ -21,10 +21,10 @@ const Hero = () => {
       </Center>
       <Center>
         <Text fontFamily="Neue-Regular" fontSize="xl" w="40%" ml="40px">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum,
-          Lorem ipsum dolor.
+          NFTeez is an NFT Simulator online application designed to familiarise
+          individuals with the world of NFTs by allowing them to create, buy,
+          and bid on NFTs in real time, and to learn more about the NFT
+          ecosystem.
         </Text>
       </Center>
     </>
