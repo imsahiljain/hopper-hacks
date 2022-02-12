@@ -67,7 +67,7 @@ const Navbar = () => {
             fontFamily="Neue-Regular"
             fontSize="18px"
           >
-            <Link to="/">About NFT</Link>
+            <Link to="/about">About NFT</Link>
           </Button>
 
           {auth.currentUser ? (

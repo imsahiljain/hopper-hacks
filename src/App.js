@@ -5,6 +5,7 @@ import Login from "../src/pages/login/login";
 import Navbar from "./components/navbar/navbar";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { ToastContainer } from "react-toastify";
+import About from "./pages/about/about";
 
 class App extends React.Component {
   constructor() {
@@ -47,6 +48,7 @@ class App extends React.Component {
         <ToastContainer />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
       </>
