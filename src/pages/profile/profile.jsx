@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { Center, Heading } from "@chakra-ui/react";
+import ProfileContainer from "../../components/profile-container/profile-container";
 
 const Profile = () => {
   return (
@@ -16,6 +17,7 @@ const Profile = () => {
           Your Profile
         </Heading>
       </Center>
+      <ProfileContainer />
     </>
   );
 };
