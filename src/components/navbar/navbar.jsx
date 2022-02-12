@@ -23,6 +23,10 @@ const Navbar = () => {
   const handleProfileClick = () => {
     navigate("/profile");
   };
+  const handleCreateClick = () => {
+    navigate("/create");
+  };
+
   const logOut = () => {
     auth.signOut();
     toast({
@@ -33,6 +37,7 @@ const Navbar = () => {
       isClosable: true,
     });
   };
+
   return (
     <>
       <Flex
@@ -98,13 +103,21 @@ const Navbar = () => {
                 <Link to="/login">Logout</Link>
               </Button>
 
-              <Tooltip label="Create NFT" fontSize="md">
-                <IconButton aria-label="Your Account">
+              <Tooltip label="Create NFT" fontSize="md" hasArrow arrowSize={15}>
+                <IconButton
+                  aria-label="Your Account"
+                  onClick={handleCreateClick}
+                >
                   <Icon as={MdAddToPhotos} w={6} h={6} />
                 </IconButton>
               </Tooltip>
 
-              <Tooltip label="Your Profile" fontSize="md">
+              <Tooltip
+                label="Your Profile"
+                fontSize="md"
+                hasArrow
+                arrowSize={15}
+              >
                 <IconButton
                   aria-label="Your Account"
                   ml="4"
