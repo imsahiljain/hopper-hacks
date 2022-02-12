@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navbar/navbar";
 import { Center, Heading, Text } from "@chakra-ui/react";
+import NftContainer from "../../components/nft-container/nft-container";
 
 const Marketplace = () => {
   return (
@@ -21,6 +22,7 @@ const Marketplace = () => {
           See all the listed NFT's in the marketplace below.
         </Text>
       </Center>
+      <NftContainer />
     </>
   );
 };
