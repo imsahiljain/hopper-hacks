@@ -47,14 +47,18 @@ const NftModal = ({
         Buy this NFT
       </Button>
 
-      <Modal isOpen={isOpen} onClose={onClose} size="xl">
+      <Modal isOpen={isOpen} onClose={onClose} size="xl" color="gray.700">
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader fontFamily="Neue-Regular" fontSize="2xl">
+          <ModalHeader
+            fontFamily="Neue-Regular"
+            fontSize="2xl"
+            color="gray.700"
+          >
             Are you sure you want to buy this NFT?
           </ModalHeader>
           <ModalCloseButton />
-          <ModalBody fontFamily="Neue-Regular" fontSize="lg">
+          <ModalBody fontFamily="Neue-Regular" fontSize="lg" color="gray.700">
             <br />
             <b>NFT Name: </b> {tokenMetadata.name}
             <br /> <b>Price: </b> {prices[0]?.currency ?? "USD"}{" "}
