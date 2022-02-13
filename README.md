@@ -41,3 +41,6 @@ These six options will appear whenever a person visits our website.
 
 ### Devpost Submission
 - **Link** - [Click here](https://devpost.com/software/nfteez)
+
+### Demo Video
+- **Link** - [Click here](https://youtu.be/9vc9l841p1A)
