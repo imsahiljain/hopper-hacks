@@ -60,20 +60,22 @@ const Navbar = () => {
         <Spacer />
         <Box m="5">
           <Button
-            colorScheme="gray"
+            // colorScheme="gray"
             variant="ghost"
             mr="2"
             fontFamily="Neue-Regular"
             fontSize="18px"
+            _hover={{ color: "gray" }}
           >
             <Link to="/">Home</Link>
           </Button>
           <Button
-            colorScheme="gray"
+            // colorScheme="gray"
             variant="ghost"
             mr="3"
             fontFamily="Neue-Regular"
             fontSize="18px"
+            _hover={{ color: "gray" }}
           >
             <Link to="/about">About NFT</Link>
           </Button>
@@ -81,7 +83,8 @@ const Navbar = () => {
           {auth.currentUser ? (
             <>
               <Button
-                colorScheme="gray"
+                // colorScheme="gray"
+                _hover={{ color: "gray" }}
                 variant="ghost"
                 mr="3"
                 fontFamily="Neue-Regular"
@@ -91,7 +94,8 @@ const Navbar = () => {
               </Button>
 
               <Button
-                colorScheme="gray"
+                // colorScheme="gray"
+                _hover={{ color: "gray" }}
                 borderColor="gray.500"
                 p="5"
                 variant="outline"
@@ -104,12 +108,17 @@ const Navbar = () => {
               </Button>
 
               <Tooltip label="Create NFT" fontSize="md" hasArrow arrowSize={15}>
-                <IconButton
+                <Button
+                  _hover={{ color: "gray" }}
+                  w="7"
+                  borderColor="gray.500"
+                  // p="5"
+                  variant="outline"
                   aria-label="Your Account"
                   onClick={handleCreateClick}
                 >
                   <Icon as={MdAddToPhotos} w={6} h={6} />
-                </IconButton>
+                </Button>
               </Tooltip>
 
               <Tooltip
@@ -119,6 +128,11 @@ const Navbar = () => {
                 arrowSize={15}
               >
                 <IconButton
+                  _hover={{ color: "gray" }}
+                  w="7"
+                  borderColor="gray.500"
+                  // p="5"
+                  variant="outline"
                   aria-label="Your Account"
                   ml="4"
                   onClick={handleProfileClick}
