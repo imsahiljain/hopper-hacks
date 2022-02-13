@@ -39,3 +39,5 @@ These six options will appear whenever a person visits our website.
 - Able to complete the project within the timeline, which was really challenging.
 - We are proud that we were able to work together as a team to accomplish this goal together.
 
+### Devpost Submission
+- **Link** - [Click here](https://devpost.com/software/nfteez)
