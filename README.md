@@ -39,8 +39,14 @@ These six options will appear whenever a person visits our website.
 - Able to complete the project within the timeline, which was really challenging.
 - We are proud that we were able to work together as a team to accomplish this goal together.
 
-### Devpost Submission
-- **Link** - [Click here](https://devpost.com/software/nfteez)
+## 📖 What we learned
+- Learnt more about NFT's
+- Fetching NFT's from BitskiAPI
+- State management
 
-### Demo Video
-- **Link** - [Click here](https://youtu.be/9vc9l841p1A)
+## 🚀 What's next for NFTeez
+- Using rarity indexes and modelling, NFTeez will be able to provide predicted price and rarity for any NFT on its listings.
+
+## 🔗 Links
+- **Devpost Submission** - [Click here](https://devpost.com/software/nfteez)
+- **Demo Video** - [Click here](https://youtu.be/9vc9l841p1A)
