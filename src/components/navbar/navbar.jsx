@@ -60,7 +60,7 @@ const Navbar = () => {
         <Spacer />
         <Box m="5">
           <Button
-            colorScheme="gray"
+            // colorScheme="gray"
             variant="ghost"
             mr="2"
             fontFamily="Neue-Regular"
@@ -69,7 +69,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </Button>
           <Button
-            colorScheme="gray"
+            // colorScheme="gray"
             variant="ghost"
             mr="3"
             fontFamily="Neue-Regular"
@@ -81,7 +81,7 @@ const Navbar = () => {
           {auth.currentUser ? (
             <>
               <Button
-                colorScheme="gray"
+                // colorScheme="gray"
                 variant="ghost"
                 mr="3"
                 fontFamily="Neue-Regular"
@@ -91,7 +91,7 @@ const Navbar = () => {
               </Button>
 
               <Button
-                colorScheme="gray"
+                // colorScheme="gray"
                 borderColor="gray.500"
                 p="5"
                 variant="outline"
@@ -129,7 +129,7 @@ const Navbar = () => {
             </>
           ) : (
             <Button
-              colorScheme="gray"
+              // colorScheme="gray"
               borderColor="gray.500"
               p="5"
               variant="outline"
