@@ -60,7 +60,7 @@ const Navbar = () => {
         <Spacer />
         <Box m="5">
           <Button
-            // colorScheme="gray"
+            colorScheme="black"
             variant="ghost"
             mr="2"
             fontFamily="Neue-Regular"
@@ -69,7 +69,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </Button>
           <Button
-            // colorScheme="gray"
+            colorScheme="black"
             variant="ghost"
             mr="3"
             fontFamily="Neue-Regular"
@@ -81,7 +81,7 @@ const Navbar = () => {
           {auth.currentUser ? (
             <>
               <Button
-                // colorScheme="gray"
+                colorScheme="black"
                 variant="ghost"
                 mr="3"
                 fontFamily="Neue-Regular"
@@ -91,7 +91,7 @@ const Navbar = () => {
               </Button>
 
               <Button
-                // colorScheme="gray"
+                colorScheme="black"
                 borderColor="gray.500"
                 p="5"
                 variant="outline"
@@ -105,6 +105,7 @@ const Navbar = () => {
 
               <Tooltip label="Create NFT" fontSize="md" hasArrow arrowSize={15}>
                 <IconButton
+                  // colorScheme="white"
                   aria-label="Your Account"
                   onClick={handleCreateClick}
                 >
@@ -119,6 +120,7 @@ const Navbar = () => {
                 arrowSize={15}
               >
                 <IconButton
+                  // colorScheme="gray.100"
                   aria-label="Your Account"
                   ml="4"
                   onClick={handleProfileClick}
@@ -129,7 +131,7 @@ const Navbar = () => {
             </>
           ) : (
             <Button
-              // colorScheme="gray"
+              colorScheme="black"
               borderColor="gray.500"
               p="5"
               variant="outline"
