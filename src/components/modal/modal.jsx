@@ -36,7 +36,7 @@ const NftModal = ({
     <>
       <Button
         onClick={onOpen}
-        colorScheme="gray"
+        _hover={{ color: "gray" }}
         borderColor="gray.500"
         p="5"
         variant="outline"
